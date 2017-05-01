@@ -1,4 +1,4 @@
-# Create vuex entities names without headache 
+# Create vuex entities names without headache
 [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
 
 ```bash
