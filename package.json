@@ -1,11 +1,12 @@
 {
   "name": "create-vuex-entities",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Creates all types of vuex conception entities :alembic:",
   "repository": "https://github.com/lamartire/create-vuex-entities",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel index.js --out-file dist/index.js"
   },
   "jest": {
     "coveragePathIgnorePatterns": [
@@ -13,11 +14,23 @@
     ]
   },
   "keywords": [
-    "vuex", "vue", "mutations", "actions", "getters", "modules"
+    "vuex",
+    "vue",
+    "mutations",
+    "actions",
+    "getters",
+    "modules"
+  ],
+  "pre-commit": [
+    "build",
+    "test"
   ],
   "author": "lamartire",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^19.0.2"
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "jest": "^19.0.2",
+    "pre-commit": "^1.2.2"
   }
 }

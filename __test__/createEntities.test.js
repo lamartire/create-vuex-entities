@@ -1,4 +1,4 @@
-const createVuexEntities = require('./../index')
+const createVuexEntities = require('./../dist/index')
 const PREFIX = 'test'
 
 test('Creates mutations with PREFIX "test"', () => {
