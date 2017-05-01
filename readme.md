@@ -1,4 +1,4 @@
-# Create vuex entities names without headache
+# Create vuex entities names without headache [![NPM version][npm-image][npm-url]] [![travis-image][travis-url]]
 
 If you shot your leg with naming of mutations, or actions, or getters -- this module can solve this problem!
 
@@ -55,3 +55,8 @@ const customEntitiesList = createEntities(TYPE, PREFIX, [
 
 It'll create `test/custom/foo` and `test/custom/bar`. You also can create basic
 types of entities with this function.
+
+[travis-image]: https://travis-ci.org/lamartire/create-vuex-entities.svg?branch=master
+[travis-url]: https://travis-ci.org/lamartire/create-vuex-entities
+[npm-image]: https://badge.fury.io/js/create-vuex-entities
+[npm-url]: https://npmjs.org/package/create-vuex-entities
