@@ -1,4 +1,8 @@
-# Create vuex entities names without headache [![NPM version][npm-image][npm-url]] [![travis-image][travis-url]]
+# Create vuex entities names without headache [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]]
+
+```bash
+npm i create-vuex-entities
+```
 
 If you shot your leg with naming of mutations, or actions, or getters -- this module can solve this problem!
 
