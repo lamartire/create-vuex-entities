@@ -20,7 +20,7 @@ const counter = {
     [mutations.decrement]: (state) => state.score - 1
   }
 }
-export mutations
+export { mutations }
 ```
 
 That's it! Now we have unique mutations and can use they anywhere without troubles.
@@ -32,7 +32,12 @@ import { mutations } from 'path/to/counter/module'
 export default {
   name: 'Counter',
   methods: {
-    ...mapMutations(mutations)
+    increment () {
+      this.$store.commit(mutations.increment)
+    },
+    decrement () {
+      this.$store.commit(mutations.decrement)
+    }
   }
 }
 ```
