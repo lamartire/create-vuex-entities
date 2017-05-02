@@ -66,6 +66,17 @@ const customEntitiesList = createEntities(TYPE, PREFIX, [
 It'll create `test/custom/foo` and `test/custom/bar`. You also can create basic
 types of entities with this function.
 
+## But why? There is exist `namespaced` property
+
+`namespaced` makes modules isolated, but not this package. Other modules can
+work with each other.
+
+When I tried to use `namespaced` property for store modules I spent many time
+for searching name of mutation/action that I need. That's not cool :crying_cat_face:
+
+In the other case I used this package and export mutations names in file that I
+need. All troubles were resolved and I was not wasted my time for manually writing names. That's very cool :smirk_cat:
+
 [travis-image]: https://travis-ci.org/lamartire/create-vuex-entities.svg?branch=master
 [travis-url]: https://travis-ci.org/lamartire/create-vuex-entities
 [npm-image]: https://badge.fury.io/js/create-vuex-entities.svg
