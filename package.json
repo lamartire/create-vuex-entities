@@ -1,6 +1,6 @@
 {
   "name": "create-vuex-entities",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Creates all types of vuex conception entities :alembic:",
   "repository": "https://github.com/lamartire/create-vuex-entities",
   "main": "dist/index.js",

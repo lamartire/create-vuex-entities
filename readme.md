@@ -1,3 +1,7 @@
+# This package is deprecated
+
+Use [state-types](https://github.com/lamartire/state-types) instead.
+
 # Create vuex entities names without headache
 [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
 
