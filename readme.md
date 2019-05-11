@@ -1,5 +1,7 @@
 # This package is deprecated
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lamartire/create-vuex-entities.svg)](https://greenkeeper.io/)
+
 Use [state-types](https://github.com/lamartire/state-types) instead.
 
 # Create vuex entities names without headache
